@@ -138,10 +138,23 @@ if (themeToggle) {
 let sphereSpreadTarget = 0;
 let sphereSpread = 0;
 
+// Rotation targets driven by hand movement.
+let rotationTargetX = 0;
+let rotationTargetY = 0;
+
+// Previous hand position.
+let lastHandX = null;
+let lastHandY = null;
+
+// Rotation tuning constants.
+const ROTATION_STRENGTH = 4.0;
+const ROTATION_DAMPING = 0.18;
+
 // Main Three.js render loop.
 function animateThree() {
   requestAnimationFrame(animateThree);
 
+  // Smooth interpolation between closed and exploded sphere.
   sphereSpread += (sphereSpreadTarget - sphereSpread) * 0.1;
 
   const pos = geometry.attributes.position.array;
@@ -151,6 +164,10 @@ function animateThree() {
   }
 
   geometry.attributes.position.needsUpdate = true;
+
+  particles.rotation.x += (rotationTargetX - particles.rotation.x) * ROTATION_DAMPING;
+
+  particles.rotation.y += (rotationTargetY - particles.rotation.y) * ROTATION_DAMPING;
 
   renderer.render(scene, camera3D);
 }
@@ -221,7 +238,6 @@ function getPinchValue(landmarks) {
   return value;
 }
 
-
 // Handle MediaPipe results for each processed frame.
 function onResults(results) {
   if (!video.videoWidth || !video.videoHeight) {
@@ -247,18 +263,35 @@ function onResults(results) {
     // Update sphere spread from pinch gesture.
     sphereSpreadTarget = getPinchValue(mirroredLandmarks);
 
-    // Draw hand connections (bones).
+    // Use wrist movement to drive rotation.
+    const wrist = mirroredLandmarks[0];
+
+    if (lastHandX !== null) {
+      const dx = wrist.x - lastHandX;
+      const dy = wrist.y - lastHandY;
+
+      rotationTargetY += dx * ROTATION_STRENGTH;
+      rotationTargetX += dy * ROTATION_STRENGTH;
+    }
+
+    lastHandX = wrist.x;
+    lastHandY = wrist.y;
+
+    // Draw hand skeleton.
     drawConnectors(context, mirroredLandmarks, HAND_CONNECTIONS, {
       color: "#000000ff",
       lineWidth: 2
     });
 
-    // Draw hand landmarks (joints).
+    // Draw hand landmarks.
     drawLandmarks(context, mirroredLandmarks, {
       color: "#ffffffff",
       radius: 1
     });
   } else {
+    // Reset interaction when no hand is detected.
     sphereSpreadTarget = 0;
+    lastHandX = null;
+    lastHandY = null;
   }
 }
