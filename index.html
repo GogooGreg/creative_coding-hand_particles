@@ -20,12 +20,24 @@
 
     <!-- Script -->
     <script src="./script.js" defer></script>
+
+    <!-- MediaPipe hands tracking -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+
 </head>
 
 <body>
     <main>
         <!-- Top container -->
-        <div class="fixed top-0 left-0 w-full h-auto px-8 py-6 flex flex-row justify-end items-center">
+        <div class="fixed top-0 left-0 w-full h-auto px-8 py-6 flex flex-row justify-between items-start">
+            <!-- Camera with hands tracking -->
+            <div id="camera-container" class="relative w-[300px] h-[225px] bg-black overflow-hidden">
+                <video class="absolute inset-0 w-full h-full object-cover -scale-x-100" autoplay playsinline muted></video>
+                <canvas class="absolute inset-0 w-full h-full object-cover pointer-events-none"></canvas>
+            </div>
+
             <!-- Toggle mode button -->
             <label class="swap swap-rotate">
                 <input type="checkbox" class="theme-controller" value="black" />
